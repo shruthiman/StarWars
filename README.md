@@ -1,3 +1,3 @@
 #starwars
-npmm install 
-npm start 
+#npm install 
+#npm start 
