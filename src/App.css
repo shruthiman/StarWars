@@ -1,0 +1,36 @@
+html, body{
+  height: 100%;
+}
+.root{
+  background-image: url('./background.png');  
+  height: 100%; 
+  overflow: auto;
+}
+.tileContainer{
+  margin-bottom: 2em;
+  animation: rotation 5s; 
+}
+
+@keyframes rotation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btnGroup{
+  margin-bottom: 3px;
+}
+
+.btn.btnLogo{
+  width: 20%;
+  border-radius: 50%;
+}
+.btn.btnName{
+  width: 80%;
+}
+.logoHeader{
+  font-size: 7em;
+}
